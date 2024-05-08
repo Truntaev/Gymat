@@ -15,112 +15,1570 @@ html {
   top: 0;
   left: 0;
 }
+
+/* ПОЧАТОК 1 СЛАЙДУ */
+
+.sportsman {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
 .bodybilder {
   max-width: 1400px;
   height: 700px;
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  align-items: center;
   position: absolute;
   z-index: 0;
 }
-.logo{
-    position: absolute;
-    z-index: 100;
-    margin-left: 8rem;
-    margin-top: 2rem;
+.logo {
+  position: absolute;
+  z-index: 100;
+  margin-left: 8rem;
+  margin-top: 2rem;
 }
 .header {
-    height: 100px;
-    max-width: 1285px;
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    color: white;
-    position: absolute;
-    z-index: 100;
-  }
-.information{
-    width: 500px;
-    display: flex;
-    justify-content: center;
+  height: 100px;
+  max-width: 1285px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  z-index: 100;
 }
-  .nav {
-    width: 330px;
-    display: flex;
-    margin-left: 25rem;
-    margin-top: 2.8rem;
-    font-size: 17px;
-    position: absolute;
-    z-index: 100;
+.information {
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  width: 330px;
+  display: flex;
+  margin-left: 25rem;
+  margin-top: 2.8rem;
+  font-size: 17px;
+  position: absolute;
+  z-index: 100;
+}
+
+.nav_item {
+  color: white;
+  margin-right: 25px;
+}
+.search {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: end;
+  margin-left: 36rem;
+  margin-top: 2.5rem;
+}
+.all_bookmarks {
+  position: absolute;
+  z-index: 100;
+  margin-left: 39.5rem;
+  margin-top: 2.5rem;
+}
+.logo_join_class {
+  width: 135px;
+  height: 40px;
+  background-color: #d9d9d9;
+  position: absolute;
+  z-index: 100;
+  margin-left: 95rem;
+  margin-top: 2rem;
+}
+.emblem {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.join_text {
+  width: 85px;
+  height: 19px;
+  font-size: 14px;
+  color: #ae0f0f;
+  margin-top: -1.3rem;
+  margin-left: 3rem;
+}
+.name_of_the_sheaf_block {
+  width: 450px;
+  height: 300px;
+  /* position: absolute; */
+  z-index: 100;
+  margin-top: 15rem;
+  margin-left: 8rem;
+}
+.name_central_unit {
+  width: 450px;
+  height: 138px;
+  color: white;
+  font-size: 55px;
+  margin-left: -31rem;
+}
+.info_gym {
+  color: #cdcdcd;
+  font-size: 15px;
+  margin-bottom: 3rem;
+  width: 400px;
+  margin-left: -31rem;
+}
+.rectangle_red {
+  color: white;
+  background-color: #ae0f0f;
+  width: 140px;
+  height: 40px;
+  border: solid 1px #ae0f0f;
+  margin-left: -31rem;
+}
+
+/* КІНЕЦЬ 1 СЛАЙДУ */
+/* ПОЧАТОК 2 СЛАЙДУ */
+
+.about_gym {
+  width: 1183px;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.info_section {
+  width: 1110px;
+  height: 570px;
+  position: absolute;
+  z-index: 100;
+  flex-direction: row;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+}
+.man_in_round {
+  margin-top: 100px;
+  margin-left: 3rem;
+}
+.text_box {
+  width: 620px;
+  height: 570px;
+}
+.red_vector {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 0;
+  margin-top: 100px;
+  margin-left: 5rem;
+}
+.name {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-left: 8.5rem;
+  margin-top: 105px;
+}
+.a_shape_of_your_body {
+  font-size: 45px;
+  color: #484848;
+  margin-top: 160px;
+  margin-left: 5rem;
+}
+.some_text {
+  width: 490px;
+  height: 60px;
+  font-size: 16px;
+  color: #9e9e9e;
+  margin-left: 5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.web {
+  width: 400px;
+  height: 65px;
+  margin-left: 5rem;
+  margin-bottom: 20px;
+}
+
+.modern_equipment {
+  color: #000000;
+  margin-left: 5rem;
+  margin-top: -3.5rem;
+}
+.some_information {
+  width: 340px;
+  height: 45px;
+  margin-left: 5rem;
+}
+.ball {
+  width: 400px;
+  height: 65px;
+  margin-left: 5rem;
+}
+.body_fitness {
+  color: #000000;
+  margin-left: 5rem;
+  margin-top: -3.5rem;
+}
+
+/* КІНЕЦЬ 2 СЛАЙДУ */
+/* ПОЧАТОК 3 СЛАЙДУ */
+
+.upcomming {
+  width: 1183px;
+  height: 550px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.offer_body {
+  width: 1050px;
+  height: 355px;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.other_red_vector {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 0;
+  margin-top: 20px;
+  margin-left: 5rem;
+}
+.name_class {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-left: 7rem;
+  margin-top: 25px;
+}
+.body_changes {
+  font-size: 45px;
+  color: #484848;
+  margin-top: 60px;
+  margin-left: 5rem;
+}
+.arrow {
+  margin-left: 5rem;
+}
+.training_gym {
+  width: 260px;
+  margin-left: -10.5rem;
+}
+.curved_line {
+  width: 260px;
+  height: 254px;
+  margin-left: -16.2rem;
+  margin-top: 6.3rem;
+}
+.powerlifting {
+  width: 25px;
+  height: 28px;
+  margin-top: 14rem;
+  margin-left: -8rem;
+}
+.data {
+  width: 159px;
+  height: 18px;
+  margin-top: 17rem;
+  margin-left: -5rem;
+}
+.red_join {
+  width: 105px;
+  height: 32px;
+  background-color: #ae0f0f;
+  border: solid 1px #ae0f0f;
+  color: #ffffff;
+  margin-top: 19rem;
+  margin-left: -9rem;
+}
+.fitnes_woman {
+  width: 260px;
+  margin-left: 78px;
+}
+.muay_thai {
+  width: 25px;
+  height: 28px;
+  margin-top: 14rem;
+  margin-left: -7rem;
+}
+.pm {
+  width: 140px;
+  height: 18px;
+  font-size: 14px;
+  color: #9e9e9e;
+  margin-top: 17rem;
+  margin-left: -4rem;
+}
+.white_join {
+  width: 105px;
+  height: 32px;
+  border: solid 1px #ae0f0f;
+  color: #ae0f0f;
+  margin-top: 19rem;
+  margin-left: -8rem;
+}
+.man_running {
+  width: 190px;
+  height: 355px;
+  margin-top: 6rem;
+  margin-left: 4rem;
+}
+.curved_lin {
+  width: 160px;
+  height: 254px;
+  margin-left: -10rem;
+  margin-top: 12.3rem;
+}
+.wed {
+  width: 140px;
+  height: 18px;
+  font-size: 14px;
+  color: #9e9e9e;
+  margin-top: 23rem;
+  margin-left: -48px;
+}
+.join {
+  width: 105px;
+  height: 32px;
+  border: solid 1px #ae0f0f;
+  color: #ae0f0f;
+  margin-top: 25rem;
+  margin-left: -2rem;
+}
+
+/* КІНЕЦЬ 3 СЛАЙДУ */
+/* ПОЧАТОК 4 СЛАЙДУ */
+
+.trainer {
+  width: 1183px;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+}
+.weight {
+  width: 300px;
+  height: 500px;
+}
+.more_info {
+  width: 585px;
+  height: 325px;
+  margin-left: -13.5rem;
+}
+.vector_in_red {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 0;
+  margin-top: 3rem;
+}
+.title {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-left: 2rem;
+  margin-top: 55px;
+}
+.choose_us {
+  height: 100px;
+  font-size: 45px;
+  color: #484848;
+  margin-top: 105px;
+}
+.gallery {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.modern {
+  width: 585px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+}
+.ellipse {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+.bike {
+  width: 28px;
+  height: 28px;
+  margin-top: 25px;
+  margin-left: -40px;
+}
+.name_modern {
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.gallery_of_type {
+  margin-top: 40px;
+  margin-left: -7rem;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.ellipse_pink {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.scales {
+  width: 28px;
+  height: 28px;
+  margin-top: 30px;
+  margin-left: -38px;
+}
+.name_weight {
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.took_a_gallery {
+  margin-top: 40px;
+  margin-left: -5.5rem;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.expert_trainer {
+  margin-top: 40px;
+}
+.trainer_students {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.model {
+  width: 420px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+/* КІНЕЦЬ 4 СЛАЙДУ */
+/* ПОЧАТОК 5 СЛАЙДУ */
+
+.top_trainers {
+  width: 1183px;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+.upper {
+  display: flex;
+  flex-direction: row;
+}
+.text_vector {
+  margin-left: 19rem;
+}
+.info_trainers {
+  height: 300px;
+}
+.vector_the_red {
+  margin-left: 11rem;
+  margin-top: 5rem;
+  margin-bottom: 3px;
+}
+.title_trainers {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-left: 14.5rem;
+  margin-top: -2rem;
+}
+.our_experienced {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #484848;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.scrambled {
+  font-size: 14px;
+  color: #9e9e9e;
+  text-align: center;
+}
+.four_trainers {
+  width: 900px;
+  height: 705px;
+  margin-left: 17rem;
+}
+.stefi {
+  width: 220px;
+  height: 255px;
+}
+.the_red_vector {
+  width: 350px;
+  height: 46px;
+  margin-left: -4rem;
+  margin-top: -2rem;
+}
+.name_trainer {
+  width: 100px;
+  font-size: 16px;
+  color: #efefef;
+  margin-top: -2.5rem;
+  margin-left: 4.5rem;
+}
+.couch {
+  width: 50px;
+  color: #9e9e9e;
+  font-size: 16px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.programs {
+  width: 200px;
+  margin-bottom: 25px;
+}
+.facebook {
+  width: 14px;
+  height: 14px;
+  margin-top: 10px;
+  margin-left: 3rem;
+  margin-right: 10px;
+}
+.inst {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+.twitter {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+.white_ball {
+  width: 14px;
+  height: 14px;
+}
+.dorian {
+  width: 220px;
+  height: 255px;
+  margin-left: 10rem;
+}
+.dorian_red_vector {
+  width: 350px;
+  height: 46px;
+  margin-top: -2rem;
+  margin-left: 5rem;
+}
+.girl_trainer {
+  margin-left: 13.5rem;
+  margin-top: -2.5rem;
+  color: #efefef;
+}
+.girl_couch {
+  color: #9e9e9e;
+  margin-left: 14rem;
+  margin-top: 2rem;
+}
+.program {
+  margin-left: 9rem;
+}
+.lower {
+  display: flex;
+  flex-direction: row;
+}
+.shawn {
+  width: 220px;
+  height: 255px;
+}
+.shawn_red_vector {
+  width: 350px;
+  height: 46px;
+  margin-left: -5rem;
+  margin-top: -2rem;
+}
+.flex {
+  width: 220px;
+  height: 255px;
+  margin-left: 15rem;
+}
+.flex_vector {
+  width: 350px;
+  height: 46px;
+  margin-left: 10rem;
+  margin-top: -2rem;
+}
+.flex_trainer {
+  width: 100px;
+  font-size: 16px;
+  color: #efefef;
+  margin-left: 18rem;
+  margin-top: -2.5rem;
+}
+.flex_couch {
+  width: 50px;
+  color: #9e9e9e;
+  font-size: 16px;
+  margin-left: 19rem;
+  margin-top: 2rem;
+}
+.flex_program {
+  margin-left: 14rem;
+}
+
+/* КІНЕЦЬ 5 СЛАЙДУ */
+/* ПОЧАТОК 6 СЛАЙДУ */
+
+.weekly_class_schedule {
+  width: 1183px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.red_title {
+  width: 240px;
+  height: 30px;
+  margin-top: 100px;
+}
+.text_in_vector {
+  width: 130px;
+  font-size: 16px;
+  color: #efefef;
+  margin-top: -30px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.schedule {
+  width: 570px;
+  height: 60px;
+  color: #484848;
+  font-size: 45px;
+  margin-left: -7rem;
+  margin-bottom: 15px;
+}
+.text_about_gym {
+  width: 430px;
+  height: 50px;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 14px;
+  margin-left: -7rem;
+  margin-bottom: 15px;
+}
+.schedule_of_classes {
+  margin-left: -27rem;
+}
+
+/* КІНЕЦЬ 6 СЛАЙДУ */
+/* ПОЧАТОК 7 СЛАЙДУ */
+
+.pricing_plans {
+  width: 1183px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+.row_of_three_blocks {
+  width: 1110px;
+  height: 530px;
+  display: flex;
+  flex-direction: row;
+}
+.first_block {
+  width: 325px;
+  height: 250px;
+  margin-top: 80px;
+}
+.centr_info {
+  width: 325px;
+  height: 250px;
+  margin-top: 80px;
+}
+.vector_for_text {
+  margin-left: 3rem;
+}
+.pricing_chart {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 7rem;
+  margin-top: -2rem;
+  margin-bottom: 30px;
+}
+.title_pricing_plans {
+  color: #484848;
+  font-size: 45px;
+  margin-left: 3rem;
+  line-height: 55px;
+  margin-bottom: 15px;
+}
+.yearly_subscription_plan {
+  font-size: 16px;
+  color: #9e9e9e;
+  margin-left: 3rem;
+  margin-bottom: 15px;
+}
+.colortext {
+  color: #000000;
+}
+.colortext_red {
+  color: #ae0f0f;
+  margin-left: 3rem;
+  margin-top: -5px;
+}
+.on_off {
+  margin-bottom: -0.4rem;
+}
+.colortext_grey {
+  color: #c8c8c8;
+  margin-left: 5px;
+}
+
+.second_block {
+  width: 350px;
+  height: 525px;
+  margin-top: 80px;
+}
+.black {
+  width: 415px;
+  height: 530px;
+  position: absolute;
+  z-index: 0;
+}
+.fitnes_girl {
+  position: absolute;
+  z-index: 100;
+  margin-left: 23px;
+}
+.basic {
+  position: absolute;
+  z-index: 100;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.text_in_black_box {
+  width: 350px;
+  height: 370px;
+  margin-top: 11rem;
+  margin-left: 2.1rem;
+  display: flex;
+  flex-direction: row;
+}
+.dollar {
+  position: absolute;
+  z-index: 100;
+  color: #ae0f0f;
+  margin-left: 3rem;
+}
+.mo {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-top: 7px;
+  margin-left: 105px;
+}
+.first_nice_box {
+  width: 300px;
+  height: 20px;
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+}
+.nice {
+  position: absolute;
+  z-index: 100;
+}
+.text_for_nice {
+  position: absolute;
+  z-index: 100;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.second_nice_box {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2rem;
+}
+.second_text_for_nice {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.third_nice_box {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 4rem;
+}
+.third_text_for_nice {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.fourth_nice_box {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 6rem;
+}
+.fourth_text_for_nice {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.fifth_nice_box {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 8rem;
+}
+.fifth_text_for_nice {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.sixth_nice_box {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 10rem;
+}
+.sixth_text_for_nice {
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.red_btn_box {
+  width: 135px;
+  height: 40px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 13rem;
+  margin-left: 4rem;
+  background-color: #ae0f0f;
+  border: 1px solid #ae0f0f;
+}
+.colortext_white {
+  color: #ffffff;
+}
+.third_block {
+  width: 350px;
+  height: 525px;
+  margin-top: 80px;
+}
+.third_box {
+  width: 350px;
+  height: 500px;
+  margin-top: 5rem;
+  margin-left: 4px;
+}
+.grey_background {
+  margin-left: 4rem;
+  margin-top: 6px;
+  width: 350px;
+  height: 495px;
+  position: absolute;
+  z-index: 0;
+}
+.woman_on_bicycle {
+  position: absolute;
+  z-index: 100;
+  margin-left: 3.4rem;
+}
+.premium {
+  position: absolute;
+  z-index: 100;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+.text_in_grey_box {
+  width: 350px;
+  height: 370px;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+.two_hundred_dollars {
+  position: absolute;
+  z-index: 100;
+  color: #ae0f0f;
+  margin-left: 3rem;
+  margin-top: 11rem;
+}
+.mo_second {
+  position: absolute;
+  z-index: 100;
+  color: #ffffff;
+  margin-top: 11.5rem;
+  margin-left: 105px;
+}
+.first_nice_grey_box {
+  margin-top: 13.5rem;
+  margin-left: 3rem;
+}
+
+/* КІНЕЦЬ 7 СЛАЙДУ */
+/* ПОЧАТОК 8 СЛАЙДУ */
+
+.shop_online {
+  width: 1183px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.online_shop {
+  width: 1100px;
+  height: 200px;
+  margin-top: 100px;
+  text-align: center;
+}
+.shop {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: -2rem;
+  margin-left: 1rem;
+  margin-bottom: 30px;
+}
+.gym_store {
+  font-size: 45px;
+  color: #484848;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.text_about_gym_centre {
+  width: 1100px;
+  height: 50px;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.big_box {
+  width: 11000px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+.box_working_dumble {
+  width: 330px;
+  height: 340px;
+}
+.box_gym_equipment {
+  width: 330px;
+  height: 340px;
+}
+.box_gym_nike_sneaker {
+  width: 330px;
+  height: 340px;
+}
+.dumbbell {
+  width: 330px;
+  height: 325px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 3rem;
+}
+.rectangle_grey {
+  width: 330px;
+  height: 325px;
+  margin-left: 5rem;
+  position: absolute;
+  z-index: 0;
+}
+.rectangle_grey_second {
+  width: 330px;
+  height: 325px;
+  margin-left: 7rem;
+  position: absolute;
+  z-index: 0;
+}
+.fitnes_ball {
+  position: absolute;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  margin-top: 4rem;
+  margin-left: 9rem;
+}
+.shoes {
+  position: absolute;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  margin-top: 4rem;
+  margin-left: 11.5rem;
+}
+.small_title {
+  color: #242323;
+  font-size: 16px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 18rem;
+  margin-left: 5rem;
+}
+.second_small_title {
+  color: #242323;
+  font-size: 16px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 18rem;
+  margin-left: 7rem;
+}
+.third_small_title {
+  color: #242323;
+  font-size: 16px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 18rem;
+  margin-left: 9rem;
+}
+.red_element {
+  position: absolute;
+  z-index: 100;
+  margin-top: -7px;
+  margin-left: 60px;
+}
+.second_red_element {
+  position: absolute;
+  z-index: 100;
+  margin-top: -7px;
+  margin-left: 90px;
+}
+.third_red_element {
+  position: absolute;
+  z-index: 100;
+  margin-top: -7px;
+  margin-left: 120px;
+}
+.off {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  z-index: 101;
+  margin-left: 7rem;
+  margin-top: 1rem;
+}
+.new {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  z-index: 101;
+  margin-left: 8.5rem;
+  margin-top: 1.5rem;
+}
+.procent_off {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  z-index: 101;
+  margin-left: 10.5rem;
+  margin-top: 1rem;
+}
+.rating {
+  width: 1050px;
+  height: 35px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.three_btn {
+  width: 1105px;
+  display: flex;
+  flex-direction: row;
+}
+.basket {
+  margin-left: 7rem;
+  width: 16px;
+  height: 16px;
+}
+.red_basket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 330px;
+  height: 50px;
+  margin-left: 3rem;
+  background-color: #ae0f0f;
+  border: 1px solid #ae0f0f;
+}
+.text_basket {
+  color: #ffffffff;
+  margin-left: 5px;
+}
+.kok {
+  width: 350px;
+  height: 40px;
+}
+
+/* КІНЕЦЬ 8 СЛАЙДУ */
+/* ПОЧАТОК 9 СЛАЙДУ */
+
+.reviews {
+  width: 1183px;
+  height: 720px;
+  background-color: #f8f8f8;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+.red_line {
+  width: 410px;
+  height: 510px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 8.5rem;
+  margin-left: 9.1rem;
+}
+.happy_man {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  z-index: 100;
+  margin-left: 10.4rem;
+  margin-top: 8rem;
+}
+.blue_vector {
+  width: 1000px;
+  height: 380px;
+  margin-top: 19.5rem;
+  margin-left: 6rem;
+  position: absolute;
+  z-index: 0;
+}
+.figure {
+  width: 420px;
+  height: 290px;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 37rem;
+  margin-top: 25.7rem;
+}
+.nine {
+  width: 70px;
+  height: 45px;
+  margin-left: 11rem;
+  margin-bottom: 15px;
+  margin-top: -4rem;
+}
+.many_variations {
+  text-align: center;
+  color: #1a1818;
+  margin-bottom: 15px;
+}
+.yep {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+.kayn {
+  color: #ae0f0f;
+  margin-bottom: 3px;
+}
+.team {
+  color: #787878;
+}
+.left_right {
+  width: 130px;
+  height: 40px;
+  margin-left: 19rem;
+}
+.testimonials {
+  width: 500px;
+  height: 230px;
+  margin-left: 35rem;
+  margin-top: 6rem;
+  position: absolute;
+}
+.the_vector {
+  margin-left: 8rem;
+  position: absolute;
+  z-index: 0;
+}
+.title_testimonials {
+  color: #ffffff;
+  margin-left: 12rem;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 100;
+}
+.some_reviews {
+  font-size: 45px;
+  color: #484848;
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  margin-bottom: 15px;
+}
+.text_scrambled {
+  width: 350px;
+  color: #9e9e9e;
+  margin-left: 5rem;
+}
+
+/* КІНЕЦЬ 9 СЛАЙДУ */
+/* ПОЧАТОК 10 СЛАЙДУ */
+
+.calculate {
+  width: 1183px;
+  height: 380px;
+  display: flex;
+  margin: 0 auto;
+}
+.box {
+  align-items: center;
+  display: flex;
+}
+.bmi {
+  width: 450px;
+  height: 60px;
+  font-size: 47px;
+  color: #484848;
+}
+.sports_weight {
+  position: absolute;
+  z-index: -1;
+}
+.kokokoko {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10em;
+}
+.the_scrambled {
+  width: 410px;
+  height: 40px;
+  color: #9e9e9e;
+}
+.units {
+  width: 540px;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 9rem;
+}
+.non {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.round_text {
+  display: flex;
+  flex-direction: row;
+}
+.mini_red_round {
+  width: 15px;
+  height: 15px;
+}
+.metric_units {
+  color: #9e9e9e;
+  margin-left: 5px;
+  width: 85px;
+  margin-bottom: 15px;
+}
+.left_block {
+  display: flex;
+  width: 50px;
+  height: 60px;
+}
+
+.nonn {
+  width: 260px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+}
+.grey_ellipse {
+  width: 15px;
+  height: 15px;
+}
+.imperial_units {
+  color: #9e9e9e;
+  margin-left: 5px;
+  width: 100px;
+  margin-bottom: 15px;
+}
+.right_block {
+  width: 250px;
+  height: 60px;
+}
+.kg {
+  width: 140px;
+  height: 40px;
+  padding: 10px;
+}
+.rar {
+  width: 130px;
+  height: 30px;
+  background-color: #ae0f0f;
+  border: solid 1px #ae0f0f;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* КІНЕЦЬ 10 СЛАЙДУ */
+/* ПОЧАТОК 11 СЛАЙДУ */
+
+.fitnes_model {
+  width: 1183px;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.model_fitnes {
+  width: 1183px;
+  height: 410px;
+  position: absolute;
+  z-index: 0;
+}
+.dimming_an_element {
+  width: 1183px;
+  height: 410px;
+  position: absolute;
+  z-index: 100;
+}
+.consultant {
+  width: 690px;
+  height: 110px;
+  margin-top: 10rem;
+}
+
+.question {
+  width: 690px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.need_cousultant {
+  width: 620px;
+  font-size: 45px;
+  margin-left: 3rem;
+  color: #ffffff;
+  position: absolute;
+  z-index: 101;
+}
+.tell_me {
+  width: 700px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  z-index: 101;
+}
+.call {
+  color: #ae0f0f;
+  font-size: 30px;
+}
+.tell {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+/* КІНЕЦЬ 11 СЛАЙДУ */
+/* ПОЧАТОК 12 СЛАЙДУ */
+
+.info_gymat {
+  width: 1183px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.gymat_info {
+  width: 1080px;
+  height: 210px;
+  display: flex;
+}
+.another_text {
+  width: 300px;
+  height: 85px;
+  margin-top: 5px;
+}
+.more_text {
+  color: #9e9e9e;
+}
+.logo_box {
+  width: 180px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.mini_rectangle {
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue_facebook {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.second_mini_rectangle {
+  position: absolute;
+  z-index: 0;
+  margin-left: 4rem;
+}
+.red_inst {
+  width: 20px;
+  height: 20px;
+  margin-left: 44px;
+  margin-top: 12px;
+}
+.third_mini_rectangle {
+  position: absolute;
+  z-index: 0;
+  margin-left: 8rem;
+}
+.blue_twitter {
+  width: 20px;
+  height: 20px;
+  margin-left: 46px;
+  margin-top: 12px;
+}
+.our_classes {
+  color: #484848;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+.big_text_box {
+  width: 200px;
+  height: 170px;
+  margin-left: 2rem;
+}
+.fitness_classes {
+  width: 140px;
+  height: 30px;
+  color: #a7a7a7;
+}
+.lower_underprinting {
+  width: 75px;
+  margin-left: 2rem;
+}
+.aerobics_classes {
+  width: 140px;
+  height: 30px;
+  color: #a7a7a7;
+}
+.power_yoga {
+  width: 140px;
+  height: 30px;
+  color: #a7a7a7;
+}
+.lean_machines {
+  width: 140px;
+  height: 30px;
+  color: #a7a7a7;
+}
+.full_body {
+  width: 140px;
+  height: 30px;
+  color: #a7a7a7;
+}
+.quick_links {
+  color: #484848;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+.gymat_location {
+  width: 250px;
+  color: #484848;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+.west_street {
+  width: 240px;
+  color: #676767;
+  margin-bottom: 15px;
+}
+.tell_number {
+  margin-bottom: 10px;
+}
+.your_name {
+  color: #0094ff;
+}
+
+
+/* КІНЕЦЬ 12 СЛАЙДУ */
+/* ПОЧАТОК 13 СЛАЙДУ */
+
+.black_box{
+  width: 1183px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #121111;
+}
+.copyright{
+  width: 310px;
+  height: 60px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* КІНЕЦЬ 13 СЛАЙДУ */
+
+@media screen and (max-width: 320px) {
+  body {
+    /* .bodybilder{
+      width: 1400px;
+      margin-left: 45rem;
+    } */
   }
-  .nav_item{
-    color: white;
-    margin-right: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    .about_gym{
+    }
   }
-  .search{
-    position: absolute;
-    z-index: 100;
-    display: flex;
-    justify-content: end;
-    margin-left: 36rem;
-    margin-top: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+  body {
+    .searchh_blog {
+      max-width: 770px;
+      height: 350px;
+    }
   }
-   .all_bookmarks{
-    position: absolute;
-    z-index: 100;
-    margin-left: 39.5rem;
-    margin-top: 2.5rem;
-   }
-  .logo_join_class{
-    width: 135px;
-    height: 40px;
-    background-color: #D9D9D9;
-    position: absolute;
-    z-index: 100;
-    margin-left: 95rem;
-    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    
   }
-  .emblem{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    margin-left: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    
   }
-  .join_text{
-    width: 85px;
-    height: 19px;
-    font-size: 14px;
-    color: #AE0F0F;
-    margin-top: -1.3rem;
-    margin-left: 3rem;
-  }
-  .name_of_the_sheaf_block{
-    width: 450px;
-    height: 300px; 
-    position: absolute;
-    z-index: 100;
-    margin-top: 10rem;
-    margin-left: 8rem;
-  }
-  .name_central_unit{
-    width: 450px;
-    height: 138px;
-    color: white;
-    font-size: 55px;
-   
-  }
-  .info_gym{
-    color: #CDCDCD;
-    font-size: 15px;
-    margin-bottom: 3rem;
-  }
-  .rectangle_red{
-    color: white;
-    background-color: #AE0F0F;
-    width: 140px;
-    height: 40px;
-    border: solid 1px #AE0F0F;
-  }
+}
