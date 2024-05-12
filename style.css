@@ -19,13 +19,15 @@ html {
 /* ПОЧАТОК 1 СЛАЙДУ */
 
 .sportsman {
+  width: 1183px;
   height: 700px;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .bodybilder {
-  max-width: 1400px;
+  max-width: 1183px;
   height: 700px;
   display: flex;
   margin: 0 auto;
@@ -34,11 +36,20 @@ html {
   position: absolute;
   z-index: 0;
 }
+.gym_logo{
+width: 1100px;
+height: 60px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+}
 .logo {
-  position: absolute;
+  /* position: absolute; */
   z-index: 100;
-  margin-left: 8rem;
-  margin-top: 2rem;
+  margin-left: -5rem;
+  margin-top: -0.9rem;
+  margin-right: 20px;
 }
 .header {
   height: 100px;
@@ -57,12 +68,14 @@ html {
   height: 70px;
   display: flex;
   justify-content: center;
+  margin-left: 3rem;
 }
 .nav {
-  width: 330px;
+  width: 780px;
   display: flex;
-  margin-left: 25rem;
-  margin-top: 2.8rem;
+  justify-content: start;
+  /* margin-left: 25rem; */
+  margin-top: 3rem;
   font-size: 17px;
   position: absolute;
   z-index: 100;
@@ -77,14 +90,17 @@ html {
   z-index: 100;
   display: flex;
   justify-content: end;
-  margin-left: 36rem;
-  margin-top: 2.5rem;
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+.search_runner{
+  margin-left: 8rem;
 }
 .all_bookmarks {
   position: absolute;
   z-index: 100;
-  margin-left: 39.5rem;
-  margin-top: 2.5rem;
+  margin-left: 12rem;
+  margin-top: 3rem;
 }
 .logo_join_class {
   width: 135px;
@@ -92,7 +108,7 @@ html {
   background-color: #d9d9d9;
   position: absolute;
   z-index: 100;
-  margin-left: 95rem;
+  margin-left: 48rem;
   margin-top: 2rem;
 }
 .emblem {
@@ -110,26 +126,24 @@ html {
   margin-left: 3rem;
 }
 .name_of_the_sheaf_block {
-  width: 450px;
+  width: 895px;
   height: 300px;
-  /* position: absolute; */
-  z-index: 100;
+  position: absolute;
+  z-index: 0;
   margin-top: 15rem;
-  margin-left: 8rem;
+  /* margin-left: 8rem; */
 }
 .name_central_unit {
   width: 450px;
   height: 138px;
   color: white;
   font-size: 55px;
-  margin-left: -31rem;
 }
 .info_gym {
   color: #cdcdcd;
   font-size: 15px;
   margin-bottom: 3rem;
   width: 400px;
-  margin-left: -31rem;
 }
 .rectangle_red {
   color: white;
@@ -137,7 +151,6 @@ html {
   width: 140px;
   height: 40px;
   border: solid 1px #ae0f0f;
-  margin-left: -31rem;
 }
 
 /* КІНЕЦЬ 1 СЛАЙДУ */
@@ -1523,11 +1536,10 @@ html {
   color: #0094ff;
 }
 
-
 /* КІНЕЦЬ 12 СЛАЙДУ */
 /* ПОЧАТОК 13 СЛАЙДУ */
 
-.black_box{
+.black_box {
   width: 1183px;
   height: 60px;
   display: flex;
@@ -1535,10 +1547,10 @@ html {
   margin: 0 auto;
   background-color: #121111;
 }
-.copyright{
+.copyright {
   width: 310px;
   height: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1549,16 +1561,15 @@ html {
 
 @media screen and (max-width: 320px) {
   body {
-    /* .bodybilder{
-      width: 1400px;
-      margin-left: 45rem;
-    } */
+    .sportsman{
+      width: 100%;
+    }
   }
 }
 
 @media screen and (max-width: 480px) {
   body {
-    .about_gym{
+    .about_gym {
     }
   }
 }
@@ -1573,12 +1584,10 @@ html {
 
 @media screen and (max-width: 1024px) {
   body {
-    
   }
 }
 
 @media screen and (max-width: 1280px) {
   body {
-    
   }
 }
