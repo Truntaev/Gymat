@@ -73,7 +73,6 @@ html {
   width: 780px;
   display: flex;
   justify-content: start;
-  /* margin-left: 25rem; */
   margin-top: 3rem;
   font-size: 17px;
   position: absolute;
@@ -1564,24 +1563,297 @@ html {
 
 /* КІНЕЦЬ 13 СЛАЙДУ */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1440px) {
   body {
     .bodybilder {
       width: 100%;
     }
-    .sportsman {
+
+    .about_gym {
       width: 100%;
+    }
+
+    /* Кінець 1 слайду
+     Початок 3 слайду */
+    .upcomming {
+      /* width: 100%; */
+      margin-left: 5rem;
+    }
+    /*Початок 4 слайду */
+    .trainer {
+      width: 100%;
+      margin-left: 5rem;
+    }
+    /*Початок 5 слайду */
+    .top_trainers {
+      width: 100%;
+      margin-left: 5rem;
+    }
+    .text_vector {
+      display: flex;
+      justify-content: center;
+      text-align: center;
     }
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1280px) {
   body {
     .bodybilder {
       width: 100%;
     }
+    /* Кінець 1 слайду
+     Початок 2 слайду */
+    .about_gym {
+      margin-left: 4rem;
+    }
+    .fitnes_woman {
+      width: 215px;
+    }
+    .curved_line {
+      width: 220px;
+      margin-left: -16.2rem;
+    }
+    .text_box {
+      max-width: 580px;
+    }
+    .body_changes {
+      width: 400px;
+      margin-left: 80px;
+      font-size: 35px;
+    }
+    .some_text {
+      width: 400px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+    .other_red_vector {
+      margin-left: 80px;
+    }
+    .name_class {
+      margin-left: 7rem;
+    }
+    .some_text {
+      margin-left: 80px;
+    }
+    .arrow {
+      margin-left: 80px;
+    }
+    .training_gym {
+      width: 220px;
+      margin-right: 40px;
+    }
+    .man_running {
+      width: 150px;
+      margin-left: 50px;
+    }
+    .curved_lin {
+      width: 150px;
+      margin-left: -9.3rem;
+    }
+    .curvd_line {
+      width: 215px;
+      margin-left: -13.5rem;
+    }
+    .a_shape_of_your_body {
+      font-size: 36px;
+    }
+    .upcomming {
+      width: 100%;
+      /* height: 480px; */
+      /* margin-left: 5rem; */
+    }
+    .wed {
+      width: 141px;
+    }
+    /*Початок 4 слайду */
+    /*Початок 5 слайду */
+    .vector_the_red {
+      display: flex;
+      justify-content: center;
+    }
+    .dorian_red_vector {
+      width: 320px;
+    }
+    .dorian {
+      width: 200px;
+      margin-right: 80px;
+    }
+    .flex_vector {
+      width: 320px;
+    }
+    .flex {
+      width: 200px;
+      margin-right: 80px;
+    }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    .bodybilder {
+      width: 100%;
+      height: 600px;
+    }
+    .sportsman {
+      height: 600px;
+    }
+    .nav {
+      width: 700px;
+      font-size: 15px;
+    }
+    .logo_join_class {
+      margin-left: 44rem;
+    }
+    .logo {
+      width: 100px;
+      margin-top: -10px;
+    }
+    .search_runner {
+      width: 50px;
+    }
+    .name_of_the_sheaf_block {
+      width: 700px;
+    }
+    .name_central_unit {
+      width: 400px;
+      margin-left: -3rem;
+    }
+    .info_gym {
+      margin-left: -3rem;
+    }
+    .rectangle_red {
+      margin-left: -3rem;
+    }
+    /* Кінець 1 слайду
+     Початок 2 слайду */
+    .image {
+      width: 1020px;
+      margin-left: 3.6rem;
+    }
+    .man_in_round {
+      width: 420px;
+      height: 420px;
+      margin-left: 5rem;
+    }
+    .text_box {
+      width: 520px;
+      height: 520px;
+    }
+
+    .upcomming {
+      width: 100%;
+      margin-left: 9rem;
+    }
+    .man_running {
+      height: 280px;
+      margin-left: 2.7rem;
+    }
+    .fitnes_woman {
+      width: 200px;
+      height: 280px;
+    }
+    .training_gym {
+      width: 200px;
+      height: 280px;
+      margin-left: -3rem;
+    }
+    .text_box {
+      width: 420px;
+    }
+    /*Початок 4 слайду */
+    .trainer {
+      margin-left: 9rem;
+    }
+    .more_info {
+      width: 450px;
+    }
+    .modern {
+      width: 550px;
+      font-size: 14px;
+    }
+    .took_a_gallery {
+      width: 135px;
+    }
+    .gallery_of_type {
+      width: 135px;
+    }
+    /*Початок 5 слайду */
+    .top_trainers {
+      margin-left: 9rem;
+    }
+  }
+}
+
+@media screen and (max-width: 935px) {
+  body {
+    .searchh_blog {
+      max-width: 770px;
+      height: 350px;
+    }
+    .nav {
+      margin-right: -5rem;
+    }
+    .nav_item {
+      margin-right: 10px;
+    }
+    .name_of_the_sheaf_block {
+      max-width: 600px;
+    }
+    .search_runner {
+      margin-right: 9rem;
+    }
+    .logo_join_class {
+      margin-right: 8rem;
+    }
+
+    /* Кінець 1 слайду
+     Початок 2 слайду */
+    .image {
+      max-width: 850px;
+    }
+    .info_section {
+      width: 900px;
+      margin-left: 10rem;
+    }
+    .man_in_round {
+      min-width: 360px;
+      min-height: 380px;
+    }
+    .text_box {
+      min-width: 450px;
+      min-height: 450px;
+    }
+    .a_shape_of_your_body {
+      width: 300px;
+      font-size: 31px;
+      margin-right: 1rem;
+    }
+    .some_text {
+      width: 360px;
+      font-size: 14px;
+    }
+    .modern_equipment {
+      width: 250px;
+    }
+    .some_information {
+      width: 210px;
+    }
+    .upcomming {
+      width: 100%;
+    }
+    /*Початок 4 слайду */
+    .more_info {
+      width: 380px;
+    }
+    .model {
+      width: 320px;
+      height: 430px;
+    }
+    /*Початок 5 слайду */
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     .bodybilder {
@@ -1673,223 +1945,25 @@ html {
     .some_information {
       width: 250px;
     }
+    /*Початок 4 слайду */
   }
 }
 
-@media screen and (max-width: 935px) {
-  body {
-    .searchh_blog {
-      max-width: 770px;
-      height: 350px;
-    }
-    .nav {
-      margin-right: -5rem;
-    }
-    .nav_item {
-      margin-right: 10px;
-    }
-    .name_of_the_sheaf_block {
-      max-width: 600px;
-    }
-    .search_runner {
-      margin-right: 9rem;
-    }
-    .logo_join_class {
-      margin-right: 8rem;
-    }
-
-    /* Кінець 1 слайду
-     Початок 2 слайду */
-    .image {
-      max-width: 850px;
-    }
-    .info_section {
-      width: 900px;
-      margin-left: 10rem;
-    }
-    .man_in_round {
-      min-width: 360px;
-      min-height: 380px;
-    }
-    .text_box {
-      min-width: 450px;
-      min-height: 450px;
-    }
-    .a_shape_of_your_body {
-      width: 300px;
-      font-size: 31px;
-      margin-right: 1rem;
-    }
-    .some_text {
-      width: 360px;
-      font-size: 14px;
-    }
-    .modern_equipment {
-      width: 250px;
-    }
-    .some_information {
-      width: 210px;
-    }
-    .upcomming {
-      width: 100%;
-    }
-  }
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
   body {
     .bodybilder {
       width: 100%;
-      height: 600px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    .bodybilder {
+      width: 100%;
     }
     .sportsman {
-      height: 600px;
-    }
-    .nav {
-      width: 700px;
-      font-size: 15px;
-    }
-    .logo_join_class {
-      margin-left: 44rem;
-    }
-    .logo {
-      width: 100px;
-      margin-top: -10px;
-    }
-    .search_runner {
-      width: 50px;
-    }
-    .name_of_the_sheaf_block {
-      width: 700px;
-    }
-    .name_central_unit {
-      width: 400px;
-      margin-left: -3rem;
-    }
-    .info_gym {
-      margin-left: -3rem;
-    }
-    .rectangle_red {
-      margin-left: -3rem;
-    }
-    /* Кінець 1 слайду
-     Початок 2 слайду */
-    .image {
-      width: 1020px;
-      margin-left: 3.6rem;
-    }
-    .man_in_round {
-      width: 420px;
-      height: 420px;
-      margin-left: 5rem;
-    }
-    .text_box {
-      width: 520px;
-      height: 520px;
-    }
-
-    .upcomming {
       width: 100%;
-      margin-left: 9rem;
-    }
-    .man_running {
-      margin-left: 2.7rem;
-    }
-    .training_gym {
-      margin-left: -3rem;
-    }
-    .text_box {
-      width: 420px;
-    }
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  body {
-    .bodybilder {
-      width: 100%;
-    }
-    /* Кінець 1 слайду
-     Початок 2 слайду */
-    .about_gym {
-      margin-left: 4rem;
-    }
-    .fitnes_woman {
-      width: 200px;
-    }
-    .curved_line {
-      width: 210px;
-      margin-left: -15.6rem;
-    }
-    .text_box {
-      max-width: 580px;
-    }
-    .body_changes {
-      width: 400px;
-      margin-left: 80px;
-      font-size: 35px;
-    }
-    .some_text {
-      width: 400px;
-      font-size: 13px;
-      margin-top: 10px;
-    }
-    .other_red_vector {
-      margin-left: 80px;
-    }
-    .name_class {
-      margin-left: 7rem;
-    }
-    .some_text {
-      margin-left: 80px;
-    }
-    .arrow {
-      margin-left: 80px;
-    }
-    .training_gym {
-      width: 210px;
-      margin-right: 40px;
-    }
-    .man_running {
-      width: 129px;
-      margin-left: 50px;
-    }
-    .curved_lin {
-      width: 129px;
-      margin-left: -8rem;
-    }
-    .curvd_line {
-      width: 200px;
-      margin-left: -12.5rem;
-    }
-    .a_shape_of_your_body {
-      font-size: 36px;
-    }
-    .upcomming {
-      /* width: 100%; */
-      height: 480px;
-      /* margin-left: 5rem; */
-    }
-    .wed {
-      width: 141px;
-    }
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  body {
-    .bodybilder {
-      width: 100%;
-    }
-
-    .about_gym {
-      width: 100%;
-    }
-
-    /* Кінець 1 слайду
-     Початок 3 слайду */
-    .upcomming {
-      /* width: 100%; */
-      margin-left: 5rem;
     }
   }
 }
